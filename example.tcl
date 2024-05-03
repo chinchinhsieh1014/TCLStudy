@@ -83,3 +83,9 @@ if {$x > 10} {
 
 # -------  while -------
 puts { ------- while ------- }
+set i 0
+
+while {$i < 5} {
+    puts "Iteration: $i"
+    set i [expr $i+1]
+}
